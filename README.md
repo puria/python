@@ -1,4 +1,4 @@
-<!-- 
+<!--
 	replaces:
 	%s/{project_name}//g
 	%s/{tagline}//g
@@ -78,7 +78,7 @@ Abstract description like: 🚧 Zenroom is a software in **ALPHA stage** and are
 
 ***
 ## 💾 Install
-```pip install / yard add {project_name}```
+```pip install {project_name}```
 
 ***
 ## 🎮 Quick start
@@ -115,11 +115,6 @@ Designed, written and maintained by Puria Nafisi Azizi.
 
 Special thanks to Mr. W. White for his special contributions.
 
-<img src="https://zenroom.dyne.org/img/ec_logo.png" width="150" alt="Project funded by the European Commission">
-
-This project is receiving funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement nr. 732546 (DECODE).
-
-
 ***
 ## 🌐 Links
 
@@ -155,4 +150,3 @@ https://dyne.org/
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
-

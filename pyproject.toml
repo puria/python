@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "python"
+version = "0.1.0"
+description = ""
+authors = ["Puria Nafisi Azizi <puria@dyne.org>"]
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+taskipy = "^1.2.0"
+pre-commit = "^2.2.0"
+ipdb = "*"
+ipython = "*"
+pylint = "*"
+
+[tool.poetry.scripts]
+
+[tool.taskipy.tasks]
+hook = "pre-commit autoupdate && pre-commit install"
+lint = "pre-commit run --all-files"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.black]
+line-length = 120
